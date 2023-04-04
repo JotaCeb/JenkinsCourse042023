@@ -1,1 +1,12 @@
-
+pipeline
+{
+ agent any
+  stages
+  {
+   stage("Conexion con Jenkins")
+    {
+      echo java -version
+      echo git --version
+    }
+  }  
+}
