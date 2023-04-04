@@ -10,7 +10,7 @@ pipeline
       echo "java: "
       bat "java -version"
       echo "git "
-      bat git --version
+      bat "git --version"
      }
     }
   }  
