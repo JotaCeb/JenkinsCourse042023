@@ -5,8 +5,11 @@ pipeline
   {
    stage("Conexion con Jenkins")
     {
+     steps
+     {
       echo java -version
       echo git --version
+     }
     }
   }  
 }
